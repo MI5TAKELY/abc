@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.div-logo{}
+.image-logo{}
+.navigation-div{}
+.navigation-div nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    list-style-type: none;
+}
+.button{
+    margin: 0 10%;
+}
+.home{}
+.contact{}
+.download{}
