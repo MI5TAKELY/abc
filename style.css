@@ -1,20 +1,47 @@
-header{
-    display: flex;
-    justify-content: space-around;
+body{
+    margin: 0 7vh;
 }
-.div-logo{}
+header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+.div-logo{
+}
 .image-logo{}
 .navigation-div{}
 .navigation-div nav ul{
     display: flex;
-    justify-content: flex-end;
 }
 li{
     list-style-type: none;
+    margin: 0 1vh;
 }
-.button{
-    margin: 0 10%;
-}
+.button{}
 .home{}
 .contact{}
 .download{}
+
+
+
+aside{
+    display: flex;
+    padding: 0 10%;
+}
+.jiraya{
+    width: 20vh;
+}
+.text-div{
+    padding-left: 10%;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-div nav ul{
+    display: flex;
+}
