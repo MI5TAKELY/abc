@@ -78,36 +78,32 @@ a:link{
 
 
 
+
 .footer-article{
-    text-align: center;
-    background-color: rgb(19, 17, 17);
     color: white;
+    text-align: center;
 }
 .artical-div{
-    width: 100%;
-    margin: 0% 20%;
-    padding: 5%;
+    background-color: rgb(20, 19, 19);
 }
-.artical-div>p{
-    margin: 5% 0;
+.footer-text{
+    margin: 3% 15%;
 }
-.links{
-    margin: 2%;
+.link{
+    margin: 3% 0.5%;
     border-radius: 100%;
-    border: 1px solid white;
-    background-color: aliceblue;
-    color: black;
-}
-.dark{
-    background-color: black;
-}
-.dark>div>i{
-    padding: 1%;
-    position: absolute;
-    border-radius: 100%;
-    left: 5%;
-    bottom: -78%;
     border: 1px solid black;
     background-color: black;
     color: white;
+}
+.dark{
+    margin: 0;
+    background-color: black;
+    text-align: left;
+}
+.bottom-link{
+    position: absolute;
+    top: 153%;
+    padding: 2%;
+    margin: 0 3%;
 }
